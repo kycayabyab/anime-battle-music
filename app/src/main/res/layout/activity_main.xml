@@ -1,0 +1,23 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_gravity="center_vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageButton
+        android:id="@+id/onepiecebutton"
+        android:background="@drawable/onepiece"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_marginEnd="20sp"
+        />
+    
+    <ImageButton
+        android:layout_width="200sp"
+        android:layout_height="100sp"
+        android:id="@+id/narutobutton"
+        android:background="@drawable/naruto"
+        />
+
+</LinearLayout>
