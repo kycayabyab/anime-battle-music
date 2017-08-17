@@ -1,22 +1,31 @@
 <LinearLayout
     android:layout_height="match_parent"
     android:layout_width="match_parent"
-    android:gravity="center"
-    android:layout_gravity="center_vertical"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
     xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/header"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:layout_marginBottom="50sp"/>
 
     <ImageButton
         android:id="@+id/onepiecebutton"
         android:background="@drawable/onepiece"
         android:layout_width="100sp"
         android:layout_height="100sp"
-        android:layout_marginEnd="20sp"
+        android: android:layout_marginBottom="50sp"
         />
-    
+
     <ImageButton
+        android:id="@+id/narutobutton"
         android:layout_width="200sp"
         android:layout_height="100sp"
-        android:id="@+id/narutobutton"
         android:background="@drawable/naruto"
         />
 

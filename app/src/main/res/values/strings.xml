@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">AnimeBattleMusic</string>
+    <string name="header">Anime Battle Music Soundboard</string>
 </resources>
